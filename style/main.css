@@ -1,0 +1,86 @@
+h1 {
+    text-align: center;
+    color: white;
+    background: #3f75a2;
+    margin: 0;
+    line-height: 1.1;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 5px 0;
+    transition: background 0.7s;
+    -webkit-transition: background 0.7s;
+    -moz-transition: background 0.7s;
+}
+
+body {
+background: #232323;
+margin: 0;
+font-family: 'Roboto', sans-serif;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    border:none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight:700;
+    color: #3f75a2;
+    letter-spacing: 1px;
+    font-size: inherit;
+    margin: 0;
+    outline: none;
+}
+
+button:hover {
+    color: white;
+    background: #3f75a2;
+transition: all 0.5s;
+-webkit-transition: all 0.5s;
+-moz-transition: all 0.5s;
+}
+
+#colorDisplay {
+font-size: 200%;
+}
+
+#container {
+max-width: 600px;
+margin: 15px auto;
+}
+
+#menu {
+    background: white;
+    text-align: center;
+}
+
+.square {
+padding-bottom: 30%;
+width: 30%;
+float: left;
+margin: 1.66%;
+border-radius: 20%;
+transition: background 0.5s;
+-webkit-transition: background 0.5s;
+-moz-transition: background 0.5s;
+
+}
+
+.message {
+    display: inline-block;
+    width: 15%;
+    color: #a45548;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.wrong {
+background: #232323 !important;
+}
+
+.selected {
+color: white;
+background: #3f75a2;
+}
+
